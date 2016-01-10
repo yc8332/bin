@@ -141,6 +141,9 @@ perl(){
 	apt-get install libmime-perl -y
 	apt-get install libmime-lite-perl -y
 }
+nodeb(){
+	npm config set registry http://registry.cnpmjs.org
+}
 mail(){
 	apt-get install sendmail sendmail-cf mailutils sharutils -y
 }
